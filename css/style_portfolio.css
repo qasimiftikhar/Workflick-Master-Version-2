@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#cmng-sn{
+    background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url('../images/image7.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%
+}
+cbg {
+    background-image: url(../images/image11.jpg);
+    background-size: cover;
+}
+
+
+carea {
+    position: relative;
+}
+
+.col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+.carousel {	
+	margin: 30px auto 50px;
+	padding: 0 68px;
+}
+.carousel .item {
+    text-align: center;
+	overflow: hidden;
+    height: 233px;
+}
+.carousel .item .img-box {
+	background: #000;
+    padding: 0;
+}
+.carousel .item img {
+    margin: 0 auto;
+}
+.carousel .carousel-control {
+	width: 68px;
+	background: none;
+}
+.carousel .carousel-control i {
+    font-size: 28px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin-top: -15px;
+    z-index: 5;
+    left: 0;
+    right: 0;
+	color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 3px 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.carousel .carousel-indicators {
+	bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+    width: 20px;
+    height: 0px;
+    border-radius: 50%;
+    margin: -10px 4px;
+    box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.carousel-indicators li {	
+	background: #999;
+	border-color: transparent;
+}
+.carousel-indicators li.active {
+	background: #555;
+}
+
+.custom_card {
+    background-color:#4a83d8; 
+    color: white
+}
+.custom_card2 {
+    background-color:#3575d3;
+    color: white
+}
+ul li {
+    list-style: none;
+}
+clang {
+    color: white;
+    float: left;
+    inline-size: auto;
+}
+a {
+    text-decoration: none;
+}
+.clear {
+    clear: both;
+}
+.head-buttons a {
+    padding: 3px;
+}
+.separator {
+    width: 70px;
+    height: 2px;
+    background-color: green;
+    display: block;
+}
+.separator-two {
+    width: 210px;
+    height: 1px;
+    background-color: white;
+    display: block;
+}
+.projects marquee {
+    height: 200px;
+}
+.social {
+    float: left;
+    padding: auto;
+    padding-top: 3px;
+}
+.moto {
+    float: left;
+    font-size: 13px;
+    text-align: center;
+    padding: auto;
+    padding-top: 5px;
+}
+.head-buttons {
+    float: right;
+    width: auto;
+    text-align: center;
+    padding: auto;
+}
+.header {
+    background-color: #f7f8fa;
+}
+.header-active {
+    background-color: #316DC3;
+    color: white;
+    border-radius: 2px;
+}
+.logo {
+    float: left;
+    width: 200px;
+}
+h2.main-title {
+    text-align: center  ;
+    color:  #000000;
+    margin: 15px 0px;
+}
+.second-color {
+    color: rgb(221, 20, 20)
+}
+marquee.slide-marquee {
+    background-color: #343a40;
+    color: white;
+    
+}
+p.p-title {
+    margin: auto;
+    margin-top: 0px;
+    padding: auto;
+}
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+ 
+.white{
+      color:white;
+  }
+ #fade {
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    z-index: 1001;
+    filter: alpha(opacity=80);
+}
+#light {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 600px;
+    max-height: 360px;
+    border: 2px solid #FFF;
+    background: #FFF;
+    z-index: 1002;
+    overflow: hidden;
+}
+
+#boxclose {
+    float: right;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #AEAEAE;
+    border-radius: 3px;
+    background: #222222;
+    font-size: 31px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 0px;
+    padding: 11px 3px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    z-index: 1002;
+    opacity: 0.9;
+}
+
+.boxclose:before {
+    content: "×";
+}
+
+#fade:hover ~ #boxclose {
+    display:none;
+}
+
+
+
+
+
+.video-content{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.video-content .video,
+.video-content .choose{
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.1);
+	height: 640px;
+	padding: 100px 70px 0 70px
+}
+.video-content .video{
+    
+    background: #383838;
+}
+
+.video-content .video .video-btn{
+    font-size: 80px;
+    line-height: 80px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    margin: 150px 250px;
+    transition: .5s;
+    text-decoration: none;
+    z-index: 1;
+}
+.video-content .video:hover .video-btn{
+    transform: scale(1.1);
+}
+.video-content .video:hover .overlay{
+    background: rgba(0, 0, 0, .5);
+}
+.video-content .overlay {
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: .5s;
+    background: rgba(0, 0, 0, .3);
+}
+.video-content .video iframe{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.video-content .choose h4{
+    color: rgba(0, 0, 0, .5);
+    font-size: 18px;
+    font-weight: 700;
+}
+    
+.video-content .choose h1{
+    color: #333;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.video-content .choose p{
+    color: rgba(0, 0, 0, .7);
+    text-align: justify;
+    font-family: sans-serif;
+}
+.video-content .choose iframe{
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .video-content .video, .video-content .choose, {
+    width: 100% !important;
+      display: block;
+  }
+}
+
+
+/*/////////QURIES////////*/
+@media only screen and (max-width: 1198px){
+    .carousel .item{
+        height: 190px;
+    }
+    .video-content .video{
+        height: 500px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .carousel .item{
+        height: 280px;
+    }
+}
+@media only screen and (max-width: 570px){
+    .carousel .item{
+        height: 260px;
+    }
+}
+@media only screen and (max-width: 470px){
+    .carousel .item{
+        height: 200px;
+    }
+}
+@media only screen and (max-width: 360px){
+    .carousel .item{
+        height: 150px;
+    }
+}
+/*///////////------------/////////*/
